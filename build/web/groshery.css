@@ -1,0 +1,436 @@
+/*frant*/
+
+.vegitable{
+    width: 15rem;
+    height: 3rem;
+    background-color: blueviolet;
+    margin-left: 1rem;
+    border-radius: 0rem 2rem 2rem 0rem;
+    margin-top: 1rem;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
+}
+.vegitable h1{
+    font-size: 2.5rem;
+    color: white;
+    width: 10rem;
+    margin: 0.5rem;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 4.4rem;
+    background:linear-gradient(120deg,lightsalmon,darkslategrey);
+}
+.nav h1{
+    color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+        box-shadow: 15px 20px 20px rgba(0,0,0,0.3);
+        border-bottom: underline;
+        
+}
+.nav input{
+    position: absolute;
+    width: 34rem;
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius:0.5rem;
+    margin-top: 0.8rem;
+    margin-left: 25rem;
+    font-size: 1.5rem;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.nav button{
+    position: relative;
+   background-color: rgba(0,0,0,0);
+   font-size: 1.5rem;
+   color: black;
+   margin-left:48rem;
+   
+   border: none;
+   
+}
+.img-data img{
+ display: flex;
+ 
+    
+    width: 1.8rem;
+    height: 1.8rem; 
+    border-radius: 50%;
+}
+.imgs{
+    display: flex;
+   
+    margin-left: 91.6rem;
+    
+}
+.name li{
+    display: flex;
+    margin-top: -1.4rem;
+    margin-right: 3rem;
+    color: white;
+    
+}
+.nav-list{
+    margin-top: -2.3rem;
+}
+.nav-list li{
+    float: right;
+    list-style: none;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color:white;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+.title span{
+ position: absolute;
+ color: white;
+ margin-left: 25rem;
+ 
+ font-size: 4rem;
+}
+    
+    
+
+
+.nav-img img{
+    
+    width: 100%;
+    height: 30rem;
+    
+       
+}
+.img-con1
+ {height: 30rem;
+    width: 20rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 2rem;
+    margin-left: 2rem;}
+ .img-con{
+    
+    width: 98vw;
+    
+    display:grid;
+     grid-template-columns: auto auto auto auto ;
+}.img-con1 .bookname span{
+  display: flex;
+  justify-content: center;
+    font-family:algerian, solid black;
+    font-size: 2rem; 
+    font-weight: 1.5rem;
+    
+    text-align: center;
+}
+.img-con1{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+}
+.img-con1 .buy-button a{
+    display: flex;
+   margin-left: 16rem;
+   margin-right: 1rem;
+   background-color: greenyellow;
+   font-size: 1.5rem;
+   text-decoration: none;
+   color: black;
+   border: 2px solid black;
+}
+/*product detail*/
+.product{
+    background: linear-gradient(120deg,lightsalmon,darkslategrey);
+    width: 99%;
+    height: 98vh;
+    position: absolute;
+}
+.product-form{
+    position:absolute;
+    top:50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+   width: 55rem;
+   height: 30rem;
+   background-color:rgba(250,250,250,0.7);
+   border-radius:3px;
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.product-con{
+    display: flex;
+    margin-top: 3rem;
+}
+.product-detail span{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    padding-top:rem;
+     font-weight: 900;
+    
+}
+.product-input input{
+    width: 30rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 3rem;
+        box-shadow: 10px 10px 15px rgba(0,0,0,0.6);
+        outline: none;
+}
+.product-button button{
+   width:30rem;
+   height: 3rem;
+   font-size: 2rem;
+   border-radius: 1rem;
+   background-color: limegreen;
+   margin-left: 12rem;
+   margin-top: 1rem;
+   outline: none;
+   font-weight: 700;
+   cursor: pointer;
+     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.product-button button:hover{
+    color: blue;
+    height: 3.1rem;
+    width: 30.5rem;
+}
+
+/*login*/
+
+.login-page{
+   background: linear-gradient(120deg,lightgrey,deepskyblue);
+   width: 98vw;
+   height: 98vh;
+   
+}
+.login-page2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 3px;
+    border: 1px solid black;
+    
+}
+
+.login-page2 h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: algerian;
+    
+}
+
+.login-page2 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.login-con{
+ margin-top: 3rem;
+}
+
+.login-con span{
+    
+     font-size: 1.54rem;
+    
+     margin: 30px 0;
+}
+.login-con input{
+    outline: none;
+   border: none;
+    width: 100%;
+    padding: 0 5px;
+    height: 3rem;
+    border-bottom: 1px solid black;
+    box-shadow: 10px 12px 15px rgba(0,0,0,0.3);
+    font-size: 1rem;
+    
+       
+}
+.login-button button{
+    width: 100%;
+    height: 3rem;
+    font-size: 2rem;
+    background-color: lime;
+    font-weight: 600;
+    border-radius: 1rem;
+    margin-top: -s0.4rem;
+}
+.registration{
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 1rem;
+}
+.login-button button:hover{
+    color: white;
+   
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.Forget {
+    position: relative;
+    margin-top: -2rem;
+    margin-left: 21rem;
+}
+.Forget a{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.Forget a:hover{
+     color: red;
+     
+}
+.login-team{
+    margin-top: 3.5rem;
+}
+.login-team a{
+    color: red;
+    text-decoration: none;
+}
+/*registration*/
+.main{
+    width: 98vw;
+    height:98vh;
+    background-color: lightgray;
+    
+}
+.main-con{
+  
+      position:absolute;
+    top:50%;
+    left: 50%;
+   transform: translate(-50%,-50%);
+   width: 55rem;
+   height: 32rem;
+   background-color:rgba(250,250,250,0.7);
+   border-radius:3px;
+   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.registar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.regis-con{
+  
+    
+}
+.regis-con span{
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+.regis-con input{
+    width: 22rem;
+    height: 2.3rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 1.3rem;
+    outline: none;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+    
+}
+.regis-con2{
+    margin-top: 5rem;
+}
+.sub-button button{
+    width: 30rem;
+    background-color: lime;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    
+}
+/*Showproduct*/
+.imgs1{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.showproduct{
+    display: flex;
+    background-color: white;
+    width: 85rem;
+    height: 45rem;
+    margin-left: 5rem;
+   
+}
+.show{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.show span{
+    
+}
+.buttons-but a{
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 1rem;
+    
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color:orange;
+    color: white;
+    border: none;
+    
+    
+}
+
+.offers{
+   position: absolute;
+    margin-left: 47rem;
+    margin-top: -30rem;
+}
+.offers span{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+    
+    
+}
+.offers a{
+    text-decoration: none;
+}
+.feedback{
+    position: absolute;
+    margin-top: -16rem;
+    margin-left: 47rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/*cart*/
+.carts{
+    background-color: white;
+    width: 80rem;
+    height:25rem;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+.Add-product img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
+}
+.cart-pname {
+    display: flex;
+    margin-left: 50rem;
+    margin-top: -17rem;
+}
